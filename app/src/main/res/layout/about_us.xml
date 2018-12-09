@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@drawable/background_about_us">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دەربارەی ئەپڵیكەیشن  ئەم ئەپڵیكەیشنە؛ وەكو دیاریێكی قەشەنگ بۆ منداڵە تازە فامپێگەیشتووەكان ، كە ببێتە دەستپێكێكی باش بۆ فێربوونیان لە ژمارەكان و كردارە بیركارییە سەرەتاییەكان. بەشێوازی فێركردنی ناسینی ژمارەكان، چۆنیەتی نووسینی ژمارەكان، ژماردنی ژمارەكان و چۆنیەتی كۆكردن و لێدەركردنی ژمارەكان لە یەكتری. لەم ئەپڵیكەیشنە چەندین وێنە و ئەنیمەیشنی تایبەت بە منداڵان بەكارھێنراون بۆ ساناتر فێربوونیان. ئەم ئەپڵیكەیشنە لە پێنج بەشی سەرەكی پێكدێت:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ژمارەكان؛ فێركردنی منداڵان لە زانینی ژمارەكان بە بەكارھێنانی سێو وەكو نمونە." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/یەكەم" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" ژماردن؛ فێركردنی منداڵان لە ژماردنی ژمارەكان بە بەكارھێنانی ڕێوی و كۆلارە وەكو نمونە." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/دووەم" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="كۆكردن؛ فێركردنی منداڵان لە چۆنیەتی كۆكردنی ژمارەكان لەگەڵ یەكتری بە بەكارھێنانی باڵندە، باڵۆن و ماسی وەكو نمونە." />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/سێیەم" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="لێدەركردن؛ فێركردنی منداڵان لە چۆنیەتی لێدەركردنی ژمارەیەك لەگەڵ ژمارەیێكی تر، بە بەكارھێنانی باڵندە، باڵۆن و ماسی وەكو نمونە." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/چوارەم" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" كردارەكی نووسینی ژمارەكان؛ لەم بەشەدا ڕێگەخۆشكراوە بۆ مەشقپێكردن لە نووسینی ژمارەكان بەشێوەیەكی كردارەكی، وەھەروەھا لێڕاھاتنێكی باش دەبێت بۆ نووسینی ژمارەكان." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/پێنجەم" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
